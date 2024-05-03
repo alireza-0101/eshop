@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Yekan Bakh";
+  src: local("YekanBakh-Regular"),
+    url("../../public/fonts/YekanBakh-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../public/fonts/YekanBakh-Regular.woff2") format("woff2"),
+    url("../../public/fonts/YekanBakh-Regular.woff") format("woff"),
+    url("../../public/fonts/YekanBakh-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.input {
+  @apply h-auto rounded-md border-2 border-gray-200 focus:border-gray-400 transition-all duration-300 p-3 font-bold text-sm hover:opacity-80 dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500 dark:placeholder:text-gray-300 shadow-sm;
+}
+
+.gradient-button {
+  @apply flex justify-center items-center gap-2 transition-all duration-300 p-3 rounded-md cursor-pointer font-bold text-white hover:opacity-80 bg-gradient-to-r from-indigo-500 dark:from-indigo-700 from-10% to-sky-500 dark:to-sky-950 via-30% to-90% col-span-full;
+}
+
+.admin-wrap {
+  @apply p-5 flex flex-col justify-center items-center gap-5;
+}
+
+.delete-btn {
+  @apply border-2 dark:border-red-500 dark:text-red-400 border-red-600 text-red-600 transition-all duration-300 hover:bg-red-300 dark:hover:bg-red-950 font-bold rounded-md px-5 py-1;
+}
+
+.edit-btn {
+  @apply border-2 dark:border-sky-500 dark:text-sky-400 border-sky-600 text-sky-600 transition-all duration-300 hover:bg-sky-300 dark:hover:bg-sky-950 font-bold rounded-md px-5 py-1;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #747474;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #acacac;
+  transition: 0.5s;
+  border-top: solid 6px #9b9b9b;
+  border-bottom: solid 6px #9b9b9b;
+}
+
+*,
+input,
+select {
+  font-family: "Yekan Bakh", "vazir";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+}
+
+body {
+  background-color: #ffffff;
+  position: relative;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Start Hide Number Input Buttons */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* End Hide Number Input Buttons */
+
+/* Start Refactor Swiper Buttuns */
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #4e4e4e;
+  border: 2px #4e4e4e solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #0000002d;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 15px;
+}
+
+.swiper-pagination-bullet-active {
+  width: 25px;
+  border-radius: 5px;
+  background-color: #4e4e4e;
+}
+
+/* End Refactor Swiper Buttuns */

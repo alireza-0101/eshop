@@ -1,0 +1,214 @@
+{
+  "products": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "erfanM",
+      "access": "admin",
+      "email": "email-address@gmail.com",
+      "password": "a12l34i56",
+      "phone": "09925097232",
+      "address": "تهران، نیاوران، خیابان امام، پلاک 85",
+      "chat": [
+        {
+          "id": 1,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 2,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 3,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 4,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "alireza-web",
+      "access": "admin",
+      "email": "email-address@gmail.com",
+      "password": "15544545",
+      "phone": "09925097232",
+      "address": "تهران، نیاوران، خیابان امام، پلاک 85",
+      "chat": [
+        {
+          "id": 1,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 2,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 3,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 4,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ali-mh",
+      "access": "admin",
+      "email": "email-address@gmail.com",
+      "password": "dfgfg555",
+      "phone": "09925097232",
+      "address": "تهران، نیاوران، خیابان امام، پلاک 85",
+      "chat": [
+        {
+          "id": 1,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 2,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 3,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        },
+        {
+          "id": 4,
+          "messageFrom": "admin",
+          "body": "سلام این یگ پیام تستی است و همین!"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "هنذفری و هدفون",
+      "id": 5
+    },
+    {
+      "name": "مواس و کیبورد",
+      "id": 6
+    },
+    {
+      "name": "مواس و کیبورد",
+      "id": 7
+    },
+    {
+      "name": "گوشی دکمه ای",
+      "id": 8
+    },
+    {
+      "name": "کنسول بازی",
+      "id": 11
+    },
+    {
+      "name": "شارژر لپتاب و موبایل",
+      "id": 12
+    },
+    {
+      "name": "لپتاب و لوازم جانبی",
+      "id": 13
+    }
+  ],
+  "slides": [
+    {
+      "id": 1,
+      "title": "some comment",
+      "link": "https://image.address"
+    },
+    {
+      "id": 2,
+      "title": "some comment",
+      "link": "https://image.address"
+    },
+    {
+      "id": 3,
+      "title": "some comment",
+      "link": "https://image.address"
+    },
+    {
+      "id": 4,
+      "title": "some comment",
+      "link": "https://image.address"
+    }
+  ],
+  "header-alert": {
+    "link": "https://link.address",
+    "text": "تمامی محصولات بروز میباشد و شما میتوانید خرید کنید"
+  },
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "sumPrice": 10000000,
+      "statusStep": 1,
+      "trackingCode": "2556477965478",
+      "products": [
+        {
+          "id": 1,
+          "count": 5,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "count": 7,
+          "productId": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "sumPrice": 10000000,
+      "statusStep": 1,
+      "trackingCode": "2556477965478",
+      "products": [
+        {
+          "id": 1,
+          "count": 5,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "count": 7,
+          "productId": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "sumPrice": 10000000,
+      "statusStep": 1,
+      "trackingCode": "2556477965478",
+      "products": [
+        {
+          "id": 1,
+          "count": 5,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "count": 7,
+          "productId": 3
+        }
+      ]
+    }
+  ],
+  "offs": []
+}
